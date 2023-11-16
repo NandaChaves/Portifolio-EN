@@ -883,3 +883,16 @@ footer span a:hover{
     }
 }
 
+@media only screen and (max-width:280px){
+    .work_container{
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+	justify-content: center;
+        gap: 1.2rem;
+    }
+	.work_item{
+     padding: 0.25rem 0.15rem;
+    }
+}
+
+
