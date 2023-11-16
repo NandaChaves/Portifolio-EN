@@ -877,7 +877,7 @@ footer span a:hover{
 @media only screen and (max-width:450px){
     .work_container{
         display: grid;
-        grid-template-columns: repeat(1,230px);
+        grid-template-columns: repeat(2,180px);
 	justify-content: center;
         gap: 1.2rem;
     }
