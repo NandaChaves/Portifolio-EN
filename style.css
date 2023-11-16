@@ -708,6 +708,9 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+     .work_container{
+        grid-template-columns: repeat(3,300px);
+    }
 }
 
 @media (max-width: 991px) {
@@ -780,7 +783,7 @@ footer span a:hover{
     }
 
     .work_container{
-     grid-template-columns: repeat(3,270px);
+     grid-template-columns: repeat(3,280px);
      }
 }
 
