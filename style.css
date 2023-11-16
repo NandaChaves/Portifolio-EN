@@ -778,6 +778,10 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+
+    .work_container{
+     grid-template-columns: repeat(3,270px);
+     }
 }
 
 @media (max-width: 690px) {
@@ -877,7 +881,7 @@ footer span a:hover{
 @media only screen and (max-width:450px){
     .work_container{
         display: grid;
-        grid-template-columns: repeat(2,180px);
+        grid-template-columns: repeat(2,170px);
 	justify-content: center;
         gap: 1.2rem;
     }
@@ -886,7 +890,7 @@ footer span a:hover{
 @media only screen and (max-width:280px){
     .work_container{
         display: grid;
-        grid-template-columns: repeat(2,250px);
+        grid-template-columns: repeat(1,250px);
 	justify-content: center;
         gap: 1.2rem;
     }
