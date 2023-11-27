@@ -59,7 +59,7 @@ linkWork.forEach(l=> l.addEventListener("click",activeWork));
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Front-end","Full-stack"],
+        strings: ["FrontEnd","FullStack"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
