@@ -447,6 +447,9 @@ section .title::after{
 .skills-content .right .java::before{
     width: 30%;
 }
+.skills-content .right .python::before{
+    width: 40%;
+}
 
 /* Work projects*/
 .work_container{
