@@ -885,6 +885,10 @@ footer span a:hover{
 	justify-content: center;
         gap: 1.3rem;
     }
+	
+    .home{
+    background: url("images/picture2.png") no-repeat center;
+  }
 }
 
 @media only screen and (max-width:450px){
