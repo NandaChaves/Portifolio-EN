@@ -876,6 +876,9 @@ footer span a:hover{
 		padding-left: 20px;
 	}
 	/* End contact  */
+	 .home{
+    background: url("images/picture.png") no-repeat center;
+  }
 }
 
 @media only screen and (max-width:768px){
