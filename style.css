@@ -877,8 +877,10 @@ footer span a:hover{
 	}
 	/* End contact  */
 	 .home{
-    background: url("images/picture.png") no-repeat center;
-  }
+        background: url("images/picture.png") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+   }
 }
 
 @media only screen and (max-width:768px){
@@ -910,6 +912,7 @@ footer span a:hover{
     .home{
     background: url("images/picture3.png") no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
   }
 	
 }
